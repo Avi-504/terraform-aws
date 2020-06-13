@@ -9,7 +9,7 @@
 <h5>Below Image is from cloudfront<sub>      -provided by amazon </sub></h5>
 <?php
    $firstline=`head -n1 path.txt`;          
-   $path_img="https://".$firstline."/aws.jepg";
+   $path_img="https://".$firstline."/aws.jpeg";
    echo "<br>";
    echo "<img src='{$path_img}' width=500 height=500>";
 ?>
